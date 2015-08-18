@@ -10,7 +10,7 @@ attr_reader :head, :tail
   
   def append(node)
     tail.next = node
-    @tail = tail.next
+    @tail = node
   end
   
   def count
